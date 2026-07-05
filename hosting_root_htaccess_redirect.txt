@@ -1,0 +1,3 @@
+# Upload this as .htaccess to your hosting root (htdocs) to redirect root to /try/
+RewriteEngine On
+RewriteRule ^$ /try/ [L,R=302]
